@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bill_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/bill_detail_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bill ID: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/bill_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bill_detail_id"
+        android:text="Bill Name: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/bill_detail_due_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bill_detail_name"
+        android:text="Due Date: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/bill_detail_amount_due"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bill_detail_due_date"
+        android:text="Amount Due: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:id="@+id/buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bill_detail_amount_due"
+        android:layout_marginTop="350dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Edit"
+            android:layout_marginEnd="8dp" />
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_scan_for_payment"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/buttons_container"
+        android:layout_marginTop="16dp"
+        android:text="Scan for Payment" />
+
+    <Button
+        android:id="@+id/btn_see_payment_locations"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/btn_scan_for_payment"
+        android:layout_marginTop="16dp"
+        android:text="See Payment Locations" />
+
+</RelativeLayout>

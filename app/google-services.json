@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "200321470725",
+    "firebase_url": "https://login-8d7d7-default-rtdb.firebaseio.com",
+    "project_id": "login-8d7d7",
+    "storage_bucket": "login-8d7d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200321470725:android:f75d0fb36d87514cf8676c",
+        "android_client_info": {
+          "package_name": "com.finusha.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200321470725-2mn1qemthk88jpbkq5nbq9edeav8rcua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYIxJ9DaCc9utKVgVCS58544eLXfN7BW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200321470725-2mn1qemthk88jpbkq5nbq9edeav8rcua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
